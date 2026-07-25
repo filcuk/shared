@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Power BI Tabulator",
+    "subtitle": "Tabular conversion for DAX & M",
+    "url": "https://filcuk.github.io/pbi-tabulator/",
+    "icon": "https://filcuk.github.io/pbi-tabulator/app/res/icon.svg"
+  },
+  {
+    "label": "Database Connection String Generator",
+    "subtitle": "Zero-knowledge CS builder",
+    "url": "https://filcuk.github.io/database-connection-string-generator/",
+    "icon": "https://filcuk.github.io/database-connection-string-generator/app/res/icon.svg"
+  },
+  {
+    "label": "Power Query M Stepper",
+    "subtitle": "Automatic M step renaming",
+    "url": "https://filcuk.github.io/pqm-stepper/",
+    "icon": "https://filcuk.github.io/pqm-stepper/app/res/icon/icon.svg"
+  },
+  {
+    "label": "Power Query M Function Creator",
+    "subtitle": "Easy M to function conversion",
+    "url": "https://filcuk.github.io/pqm-function-creator/",
+    "icon": "https://filcuk.github.io/pqm-function-creator/app/res/icon.svg"
+  },
+  {
+    "label": "Power BI Theme Customiser",
+    "subtitle": "Theme import, export & customisation",
+    "url": "https://filcuk.github.io/pbi-theme-customiser/",
+    "icon": "https://filcuk.github.io/pbi-theme-customiser/app/res/icon.svg"
+  }
+]
