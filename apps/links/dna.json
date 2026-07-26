@@ -8,8 +8,8 @@
   {
     "label": "Database Connection String Generator",
     "subtitle": "Zero-knowledge CS builder",
-    "url": "https://filcuk.github.io/database-connection-string-generator/",
-    "icon": "https://filcuk.github.io/database-connection-string-generator/app/res/icon.svg"
+    "url": "https://filcuk.github.io/connection-string-creator/",
+    "icon": "https://filcuk.github.io/connection-string-creator/app/res/icon.svg"
   },
   {
     "label": "Power Query M Stepper",
