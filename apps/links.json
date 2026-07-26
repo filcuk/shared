@@ -46,7 +46,7 @@
             "label": "C++ Image Converter",
             "subtitle": "Convert between image array and svg",
             "url": "https://filcuk.github.io/cpp-image-converter/",
-            "icon": "https://filcuk.github.io/cpp-image-converter/app/res/icon.svg"
+            "icon": "https://filcuk.github.io/cpp-image-converter/app/res/app.svg"
         }
       ]
     },
