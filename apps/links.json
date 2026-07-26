@@ -6,7 +6,7 @@
           "label": "Power BI Tabulator",
           "subtitle": "Tabular conversion for DAX & M",
           "url": "https://filcuk.github.io/pbi-tabulator/",
-          "icon": "https://filcuk.github.io/pbi-tabulator/app/res/icon.svg"
+          "icon": "https://filcuk.github.io/pbi-tabulator/app/res/app.svg"
         },
         {
           "label": "Power Query M Stepper",
@@ -36,6 +36,17 @@
             "subtitle": "Zero-knowledge CS builder",
             "url": "https://filcuk.github.io/connection-string-creator/",
             "icon": "https://filcuk.github.io/connection-string-creator/app/res/icon.svg"
+        }
+      ]
+    },
+    {
+      "topic": "Embedded",
+      "items": [
+        {
+            "label": "C++ Image Converter",
+            "subtitle": "Convert between image array and svg",
+            "url": "https://filcuk.github.io/cpp-image-converter/",
+            "icon": "https://filcuk.github.io/cpp-image-converter/app/res/icon.svg"
         }
       ]
     },
