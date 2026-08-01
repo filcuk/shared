@@ -1,60 +1,75 @@
 [
-    {
-      "topic": "Power BI",
-      "items": [
-        {
-          "label": "Power BI Tabulator",
-          "subtitle": "Tabular conversion for DAX & M",
-          "url": "https://filcuk.github.io/pbi-tabulator/",
-          "icon": "https://filcuk.github.io/pbi-tabulator/app/res/app.svg"
-        },
-        {
-          "label": "Power Query M Stepper",
-          "subtitle": "Automatic M step renaming",
-          "url": "https://filcuk.github.io/pqm-stepper/",
-          "icon": "https://filcuk.github.io/pqm-stepper/app/res/icon/icon.svg"
-        },
-        {
-            "label": "Power Query M Function Creator",
-            "subtitle": "Easy M to function conversion",
-            "url": "https://filcuk.github.io/pqm-function-creator/",
-            "icon": "https://filcuk.github.io/pqm-function-creator/app/res/icon.svg"
-        },
-        {
-          "label": "Power BI Theme Customiser",
-          "subtitle": "Theme import, export & customisation",
-          "url": "https://filcuk.github.io/pbi-theme-customiser/",
-          "icon": "https://filcuk.github.io/pbi-theme-customiser/res/logo.svg"
-        }
-      ]
-    },
-    {
-      "topic": "Database",
-      "items": [
-        {
-            "label": "Database Connection String Generator",
-            "subtitle": "Zero-knowledge CS builder",
-            "url": "https://filcuk.github.io/connection-string-creator/",
-            "icon": "https://filcuk.github.io/connection-string-creator/app/res/icon.svg"
-        }
-      ]
-    },
-    {
-      "topic": "Embedded",
-      "items": [
-        {
-            "label": "C++ Image Converter",
-            "subtitle": "Convert between image array and svg",
-            "url": "https://filcuk.github.io/cpp-image-converter/",
-            "icon": "https://filcuk.github.io/cpp-image-converter/app/res/app.svg"
-        }
-      ]
-    },
-    {
+  {
+    "topic": "Power BI",
+    "order": 10,
+    "items": [
+      {
+        "label": "Power BI Tabulator",
+        "subtitle": "Tabular conversion for DAX & M",
+        "url": "https://filcuk.github.io/pbi-tabulator/",
+        "icon": "https://filcuk.github.io/pbi-tabulator/app/res/app.svg",
+        "order": 10
+      },
+      {
+        "label": "Power Query M Stepper",
+        "subtitle": "Automatic M step renaming",
+        "url": "https://filcuk.github.io/pqm-stepper/",
+        "icon": "https://filcuk.github.io/pqm-stepper/app/res/icon/icon.svg",
+        "order": 20
+      },
+      {
+        "label": "Power Query M Function Creator",
+        "subtitle": "Easy M to function conversion",
+        "url": "https://filcuk.github.io/pqm-function-creator/",
+        "icon": "https://filcuk.github.io/pqm-function-creator/app/res/icon.svg",
+        "order": 30
+      },
+      {
+        "label": "Power BI Theme Customiser",
+        "subtitle": "Theme import, export & customisation",
+        "url": "https://filcuk.github.io/pbi-theme-customiser/",
+        "icon": "https://filcuk.github.io/pbi-theme-customiser/res/logo.svg",
+        "order": 40
+      }
+    ]
+  },
+  {
+    "topic": "Database",
+    "order": 20,
+    "items": [
+      {
+        "label": "Database Connection String Generator",
+        "subtitle": "Zero-knowledge CS builder",
+        "url": "https://filcuk.github.io/connection-string-creator/",
+        "icon": "https://filcuk.github.io/connection-string-creator/app/res/icon.svg"
+      }
+    ]
+  },
+  {
+    "topic": "Embedded",
+    "order": 30,
+    "items": [
+      {
+        "label": "C++ Image Converter",
+        "subtitle": "Convert between image array and svg",
+        "url": "https://filcuk.github.io/cpp-image-converter/",
+        "icon": "https://filcuk.github.io/cpp-image-converter/app/res/app.svg"
+      }
+    ]
+  },
+  {
     "label": "Profile",
     "subtitle": "Find more on GitHub",
     "url": "https://github.com/filcuk",
     "iconDark": "https://raw.githubusercontent.com/filcuk/filcuk/refs/heads/main/res/icon/dark.svg",
-    "iconLight": "https://raw.githubusercontent.com/filcuk/filcuk/refs/heads/main/res/icon/light.svg"
-    }
+    "iconLight": "https://raw.githubusercontent.com/filcuk/filcuk/refs/heads/main/res/icon/light.svg",
+    "order": 10
+  },
+  {
+    "label": "Buy me a coffee",
+    "subtitle": "If you find my work useful",
+    "url": "https://github.com/sponsors/filcuk",
+    "iconSvg": "<svg viewBox=\"0 0 16 16\"><path d=\"m8 14.25.345.666a.75.75 0 0 1-.69 0l-.008-.004-.018-.01a7.152 7.152 0 0 1-.31-.17 22.055 22.055 0 0 1-3.434-2.414C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22.066 22.066 0 0 1-3.744 2.584l-.018.01-.006.003h-.002ZM4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.365 5.682A20.58 20.58 0 0 0 8 13.393a20.58 20.58 0 0 0 3.135-2.211C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3-1.373 0-2.609.986-3.029 2.456a.749.749 0 0 1-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5Z\"></path></svg>",
+    "order": 10
+  }
 ]
