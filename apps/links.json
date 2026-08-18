@@ -14,7 +14,8 @@
         "label": "Power Query M Stepper",
         "subtitle": "Automatic M step renaming",
         "url": "https://filcuk.github.io/pqm-stepper/",
-        "icon": "https://filcuk.github.io/pqm-stepper/app/res/icon/icon.svg",
+        "iconLight": "https://filcuk.github.io/pqm-stepper/app/res/app-light.svg",
+        "iconDark": "https://filcuk.github.io/pqm-stepper/app/res/app-dark.svg",
         "accentDark": "#9280e5",
         "accentLight": "#3b2c83",
         "order": 20
