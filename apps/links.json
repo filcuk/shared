@@ -8,6 +8,8 @@
         "subtitle": "Tabular conversion for DAX & M",
         "url": "https://filcuk.github.io/pbi-tabulator/",
         "icon": "https://filcuk.github.io/pbi-tabulator/app/res/app.svg",
+        "accentLight": "#1b7a3a",
+        "accentDark": "#3a9450",
         "order": 10
       },
       {
@@ -16,8 +18,8 @@
         "url": "https://filcuk.github.io/pqm-stepper/",
         "iconLight": "https://filcuk.github.io/pqm-stepper/app/res/app-light.svg",
         "iconDark": "https://filcuk.github.io/pqm-stepper/app/res/app-dark.svg",
-        "accentDark": "#9280e5",
         "accentLight": "#3b2c83",
+        "accentDark": "#9280e5",
         "order": 20
       },
       {
