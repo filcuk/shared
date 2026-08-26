@@ -27,6 +27,8 @@
         "subtitle": "Easy M to function conversion",
         "url": "https://filcuk.github.io/pqm-function-creator/",
         "icon": "https://filcuk.github.io/pqm-function-creator/app/res/app.svg",
+        "accentLight": "#f86a00",
+        "accentDark": "#ff9955",
         "order": 30
       },
       {
