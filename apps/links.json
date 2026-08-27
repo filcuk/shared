@@ -48,7 +48,10 @@
         "label": "Database Connection String Generator",
         "subtitle": "Zero-knowledge CS builder",
         "url": "https://filcuk.github.io/connection-string-creator/",
-        "icon": "https://filcuk.github.io/connection-string-creator/app/res/icon.svg"
+        "icon": "https://filcuk.github.io/connection-string-creator/app/res/app.svg",
+        "accentLight": "#0474b3",
+        "accentDark": "#38bdf8",
+        "order": 10
       }
     ]
   },
