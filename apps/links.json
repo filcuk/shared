@@ -50,8 +50,7 @@
         "url": "https://filcuk.github.io/connection-string-creator/",
         "icon": "https://filcuk.github.io/connection-string-creator/app/res/app.svg",
         "accentLight": "#0474b3",
-        "accentDark": "#38bdf8",
-        "order": 10
+        "accentDark": "#38bdf8"
       }
     ]
   },
@@ -73,6 +72,7 @@
     "url": "https://github.com/filcuk",
     "iconDark": "https://raw.githubusercontent.com/filcuk/filcuk/refs/heads/main/res/icon/dark.svg",
     "iconLight": "https://raw.githubusercontent.com/filcuk/filcuk/refs/heads/main/res/icon/light.svg",
-    "order": 10
+    "accentLight": "#00885b",
+    "accentDark": "#00e29c"
   }
 ]
