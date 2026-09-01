@@ -69,6 +69,20 @@
     ]
   },
   {
+    "topic": "Design",
+    "order": 40,
+    "items": [
+      {
+        "label": "Colour Tools",
+        "subtitle": "Various tools for working with colours",
+        "url": "https://filcuk.github.io/colour-tools/",
+        "icon": "https://filcuk.github.io/colour-tools/app/res/app.svg",
+        "accentLight": "#d75341",
+        "accentDark": "#eb8076"
+      }
+    ]
+  },
+  {
     "label": "Profile",
     "subtitle": "Find more on GitHub",
     "url": "https://github.com/filcuk",
