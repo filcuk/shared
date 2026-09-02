@@ -4,15 +4,6 @@
     "order": 10,
     "items": [
       {
-        "label": "Power BI Tabulator",
-        "subtitle": "Tabular conversion for DAX & M",
-        "url": "https://filcuk.github.io/pbi-tabulator/",
-        "icon": "https://filcuk.github.io/pbi-tabulator/app/res/app.svg",
-        "accentLight": "#1b7a3a",
-        "accentDark": "#3a9450",
-        "order": 10
-      },
-      {
         "label": "Power Query M Stepper",
         "subtitle": "Automatic M step renaming",
         "url": "https://filcuk.github.io/pqm-stepper/",
@@ -20,7 +11,7 @@
         "iconDark": "https://filcuk.github.io/pqm-stepper/app/res/app-dark.svg",
         "accentLight": "#3b2c83",
         "accentDark": "#9280e5",
-        "order": 20
+        "order": 10
       },
       {
         "label": "Power Query M Function Creator",
@@ -29,6 +20,15 @@
         "icon": "https://filcuk.github.io/pqm-function-creator/app/res/app.svg",
         "accentLight": "#f86a00",
         "accentDark": "#ff9955",
+        "order": 20
+      },
+      {
+        "label": "Power BI Tabulator",
+        "subtitle": "Tabular conversion for DAX & M",
+        "url": "https://filcuk.github.io/pbi-tabulator/",
+        "icon": "https://filcuk.github.io/pbi-tabulator/app/res/app.svg",
+        "accentLight": "#1b7a3a",
+        "accentDark": "#3a9450",
         "order": 30
       },
       {
