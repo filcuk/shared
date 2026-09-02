@@ -32,11 +32,20 @@
         "order": 30
       },
       {
+        "label": "Power BI Embedder",
+        "subtitle": "Embed documents in Power BI",
+        "url": "https://filcuk.github.io/pbi-embedder/",
+        "icon": "https://filcuk.github.io/pbi-embedder/app/res/app.svg",
+        "accentLight": "#746048",
+        "accentDark": "#edddb5",
+        "order": 40
+      },
+      {
         "label": "Power BI Theme Customiser",
         "subtitle": "Theme import, export & customisation",
         "url": "https://filcuk.github.io/pbi-theme-customiser/",
         "icon": "https://filcuk.github.io/pbi-theme-customiser/res/logo.svg",
-        "order": 40
+        "order": 50
       }
     ]
   },
