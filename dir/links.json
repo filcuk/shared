@@ -1,0 +1,219 @@
+[
+  {
+    "topic": "Data & Analytics",
+    "items": [
+      {
+        "id": "pqm-stepper",
+        "label": "Power Query M Stepper",
+        "subtitle": "Automatic M step renaming",
+        "url": "https://filcuk.github.io/pqm-stepper/",
+        "repo": "https://github.com/filcuk/pqm-stepper",
+        "icon": "app/res/app-light.svg",
+        "iconDark": "app/res/app-dark.svg",
+        "accent": "#3b2c83",
+        "accentDark": "#9280e5",
+        "type": "static-web-app",
+        "tags": ["power-bi", "power-query", "conversion"],
+        "featured": true
+      },
+      {
+        "id": "pqm-function-creator",
+        "label": "Power Query M Function Creator",
+        "subtitle": "Easy M to function conversion",
+        "url": "https://filcuk.github.io/pqm-function-creator/",
+        "repo": "https://github.com/filcuk/pqm-function-creator",
+        "icon": "app/res/app.svg",
+        "accent": "#f86a00",
+        "accentDark": "#ff9955",
+        "type": "static-web-app",
+        "tags": ["power-bi", "power-query", "conversion"],
+        "featured": true
+      },
+      {
+        "id": "pbi-tabulator",
+        "label": "Power BI Tabulator",
+        "subtitle": "Tabular conversion for DAX & M",
+        "url": "https://filcuk.github.io/pbi-tabulator/",
+        "repo": "https://github.com/filcuk/pbi-tabulator",
+        "icon": "app/res/app.svg",
+        "accent": "#1b7a3a",
+        "accentDark": "#3a9450",
+        "type": "static-web-app",
+        "tags": ["power-bi", "conversion"],
+        "featured": true
+      },
+      {
+        "id": "pbi-embedder",
+        "label": "Power BI Embedder",
+        "subtitle": "Embed documents in Power BI",
+        "url": "https://filcuk.github.io/pbi-embedder/",
+        "repo": "https://github.com/filcuk/pbi-embedder",
+        "icon": "app/res/app.svg",
+        "accent": "#746048",
+        "accentDark": "#edddb5",
+        "type": "static-web-app",
+        "tags": ["power-bi", "conversion"]
+      },
+      {
+        "id": "pbi-theme-customiser",
+        "label": "Power BI Theme Customiser",
+        "subtitle": "Theme import, export & customisation",
+        "url": "https://filcuk.github.io/pbi-theme-customiser/",
+        "repo": "https://github.com/filcuk/pbi-theme-customiser",
+        "icon": "res/logo.svg",
+        "type": "static-web-app",
+        "tags": ["power-bi"]
+      },
+      {
+        "id": "connection-string-creator",
+        "label": "Database Connection String Generator",
+        "subtitle": "Zero-knowledge CS builder",
+        "url": "https://filcuk.github.io/connection-string-creator/",
+        "repo": "https://github.com/filcuk/connection-string-creator",
+        "icon": "app/res/app.svg",
+        "accent": "#0474b3",
+        "accentDark": "#38bdf8",
+        "type": "static-web-app",
+        "tags": ["database", "power-bi"]
+      },
+      {
+        "id": "fabric-tools",
+        "label": "Fabric Tools",
+        "subtitle": "CLI for working with Microsoft Fabric artifacts",
+        "description": "fabric-tools is made for ~~lazy~~ _efficient_ developers, intended to _streamline daily tasks_ across Fabric, avoiding clunky online editors and slow deployment pipelines.",
+        "url": "https://github.com/filcuk/fabric-tools/releases",
+        "repo": "https://github.com/filcuk/fabric-tools",
+        "type": "cli",
+        "tags": ["fabric"]
+      },
+      {
+        "id": "pbi-git-toolkit",
+        "label": "PBIgTk",
+        "subtitle": "Clarity for Power BI project files on git",
+        "url": "https://github.com/filcuk/pbi-git-toolkit/releases",
+        "repo": "https://github.com/filcuk/pbi-git-toolkit",
+        "type": "tui",
+        "tags": ["windows", "power-bi", "git"]
+      },
+      {
+        "id": "power-query-functions",
+        "label": "Power Query",
+        "subtitle": "Collection of M functions",
+        "url": "https://github.com/filcuk/power-query",
+        "type": "repository",
+        "tags": ["power-query", "power-bi"]
+      },
+      {
+        "id": "dax-functions",
+        "label": "DAX",
+        "subtitle": "Collection of DAX functions",
+        "url": "https://github.com/filcuk/dax",
+        "type": "repository",
+        "tags": ["dax", "power-bi"]
+      },
+      {
+        "id": "bpa-rules",
+        "label": "BPA Rules",
+        "subtitle": "Customised Best Practice Analyser rules",
+        "url": "https://github.com/filcuk/ssas-best-practice-rules",
+        "type": "repository",
+        "tags": ["bpa", "ssas", "power-bi"]
+      }
+    ]
+  },
+  {
+    "topic": "Other",
+    "items": [
+      {
+        "id": "cpp-image-converter",
+        "label": "C++ Image Converter",
+        "subtitle": "Convert between image array and svg",
+        "url": "https://filcuk.github.io/cpp-image-converter/",
+        "repo": "https://github.com/filcuk/cpp-image-converter",
+        "icon": "app/res/app.svg",
+        "accent": "#ad568c",
+        "accentDark": "#d6a4bf",
+        "type": "static-web-app",
+        "tags": ["embedded", "conversion", "image"]
+      },
+      {
+        "id": "colour-tools",
+        "label": "Colour Tools",
+        "subtitle": "Various tools for working with colours",
+        "url": "https://filcuk.github.io/colour-tools/",
+        "repo": "https://github.com/filcuk/colour-tools",
+        "icon": "app/res/app.svg",
+        "accent": "#d75341",
+        "accentDark": "#eb8076",
+        "type": "static-web-app",
+        "tags": ["colour"]
+      },
+      {
+        "id": "planka-mcp",
+        "label": "Planka MCP",
+        "subtitle": "MCP server for Planka Kanban",
+        "url": "https://github.com/filcuk/planka-mcp/pkgs/npm/planka-mcp",
+        "repo": "https://github.com/filcuk/planka-mcp",
+        "type": "package",
+        "tags": ["mcp", "npm"]
+      },
+      {
+        "id": "n8n-nodes-planka-kanban",
+        "label": "Planka n8n Node",
+        "subtitle": "n8n automation node for Planka Kanban",
+        "url": "https://github.com/filcuk/n8n-nodes-planka-kanban/pkgs/npm/n8n-nodes-planka-kanban",
+        "repo": "https://github.com/filcuk/n8n-nodes-planka-kanban",
+        "type": "package",
+        "tags": ["n8n", "npm"]
+      },
+      {
+        "id": "bypass-proofpoint-redirect",
+        "label": "Proofpoint Redirect Bypass",
+        "subtitle": "Firefox add-on to open Proofpoint-blocked URLs",
+        "url": "https://addons.mozilla.org/en-US/firefox/addon/bypass-proofpoint-redirect/",
+        "repo": "https://github.com/filcuk/bypass-proofpoint-redirect",
+        "type": "extension",
+        "tags": ["firefox", "fork"]
+      }
+    ]
+  },
+  {
+    "topic": "Meta",
+    "items": [
+      {
+        "id": "profile",
+        "label": "Profile",
+        "subtitle": "Find more on GitHub",
+        "url": "https://github.com/filcuk",
+        "repo": "https://github.com/filcuk/filcuk",
+        "icon": "https://raw.githubusercontent.com/filcuk/filcuk/refs/heads/main/res/icon/light.svg",
+        "iconDark": "https://raw.githubusercontent.com/filcuk/filcuk/refs/heads/main/res/icon/dark.svg",
+        "accent": "#00885b",
+        "accentDark": "#00e29c",
+        "type": "profile"
+      }
+    ]
+  },
+  {
+    "topic": "Examples",
+    "hidden": true,
+    "items": [
+      {
+        "id": "example-widget",
+        "label": "Example Widget",
+        "subtitle": "Fictional demo entry for schema consumers",
+        "description": "A **made-up** item that exercises every field.\n\n- Relative `icon` / `iconDark`\n- Accents for light and dark\n- `repo` distinct from `url`\n- `featured` and `hidden` flags",
+        "url": "https://example.com/widgets/example-widget/",
+        "repo": "https://github.com/example/example-widget",
+        "icon": "assets/icon.svg",
+        "iconDark": "assets/icon-dark.svg",
+        "accent": "#2563eb",
+        "accentDark": "#93c5fd",
+        "type": "static-web-app",
+        "tags": ["example"],
+        "featured": true,
+        "hidden": true
+      }
+    ]
+  }
+]

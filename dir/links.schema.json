@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/filcuk/shared/main/dir/links.schema.json",
+  "title": "Shared links catalog",
+  "description": "Topic-grouped catalog of sites, repositories, packages, and other links.\n\nConventions:\n- Topics are domains (what it's about).\n- type is the artifact kind (what the target is).\n- tags are optional extras not already implied by topic or type.\n- Array order is display order.\n- Icon/accent paths without a scheme are resolved relative to the item url (join against url as base).\n- Skip topics/items with hidden: true unless explicitly showing drafts/examples.\n- featured marks items eligible for highlight surfaces; omit when false.\n- repo is the source repository when it differs from url.",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "$ref": "#/$defs/topic"
+  },
+  "$defs": {
+    "topic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["topic", "items"],
+      "properties": {
+        "topic": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Domain grouping (e.g. Data & Analytics, Other, Meta)."
+        },
+        "hidden": {
+          "type": "boolean",
+          "description": "When true, consumers should omit this entire topic from normal listings (e.g. schema examples)."
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/item"
+          }
+        }
+      }
+    },
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "url", "type"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "description": "Stable kebab-case slug. Prefer keeping this unchanged if the label or url moves."
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Display name."
+        },
+        "subtitle": {
+          "type": "string",
+          "description": "Short one-line blurb shown next to the label."
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Longer Markdown body. Omit when unused."
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Primary target URL for the link."
+        },
+        "repo": {
+          "type": "string",
+          "format": "uri",
+          "description": "Source repository URL when it differs from url—e.g. a Pages site, package page, releases page, or store listing."
+        },
+        "icon": {
+          "$ref": "#/$defs/assetRef",
+          "description": "Default (light) icon. Absolute URI, or path relative to url."
+        },
+        "iconDark": {
+          "$ref": "#/$defs/assetRef",
+          "description": "Optional dark-mode icon override. Absolute URI, or path relative to url."
+        },
+        "accent": {
+          "$ref": "#/$defs/color",
+          "description": "Default (light) brand accent colour."
+        },
+        "accentDark": {
+          "$ref": "#/$defs/color",
+          "description": "Optional dark-mode accent override."
+        },
+        "type": {
+          "$ref": "#/$defs/itemType",
+          "description": "What the target is (single primary kind)."
+        },
+        "tags": {
+          "type": "array",
+          "description": "Optional cross-cutting labels not already implied by topic or type. Omit when empty.",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          }
+        },
+        "featured": {
+          "type": "boolean",
+          "description": "When true, eligible for highlight/featured surfaces. Omit when false."
+        },
+        "hidden": {
+          "type": "boolean",
+          "description": "When true, consumers should omit this item from normal listings. Omit when false."
+        }
+      }
+    },
+    "itemType": {
+      "type": "string",
+      "enum": [
+        "static-web-app",
+        "repository",
+        "cli",
+        "tui",
+        "package",
+        "extension",
+        "profile"
+      ]
+    },
+    "assetRef": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Absolute http(s) URI, or a path relative to the item url (no scheme/host)."
+    },
+    "color": {
+      "type": "string",
+      "pattern": "^#([0-9A-Fa-f]{3}|[0-9A-Fa-f]{6}|[0-9A-Fa-f]{8})$",
+      "description": "CSS hex colour (#RGB, #RRGGBB, or #RRGGBBAA)."
+    }
+  }
+}
