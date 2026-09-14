@@ -83,6 +83,7 @@
         "description": "fabric-tools is made for ~~lazy~~ _efficient_ developers, intended to _streamline daily tasks_ across Fabric, avoiding clunky online editors and slow deployment pipelines.",
         "url": "https://github.com/filcuk/fabric-tools/releases",
         "repo": "https://github.com/filcuk/fabric-tools",
+        "icon": "https://raw.githubusercontent.com/filcuk/fabric-tools/refs/heads/main/res/app.svg",
         "type": "cli",
         "tags": ["fabric"]
       },
