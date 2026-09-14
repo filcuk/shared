@@ -14,6 +14,7 @@
         "accentDark": "#9280e5",
         "type": "static-web-app",
         "tags": ["power-bi", "power-query", "conversion"],
+        "languages": ["javascript"],
         "featured": true
       },
       {
@@ -27,6 +28,7 @@
         "accentDark": "#ff9955",
         "type": "static-web-app",
         "tags": ["power-bi", "power-query", "conversion"],
+        "languages": ["javascript"],
         "featured": true
       },
       {
@@ -40,6 +42,7 @@
         "accentDark": "#3a9450",
         "type": "static-web-app",
         "tags": ["power-bi", "conversion"],
+        "languages": ["javascript"],
         "featured": true
       },
       {
@@ -52,7 +55,8 @@
         "accent": "#746048",
         "accentDark": "#edddb5",
         "type": "static-web-app",
-        "tags": ["power-bi", "conversion"]
+        "tags": ["power-bi", "conversion"],
+        "languages": ["javascript"]
       },
       {
         "id": "pbi-theme-customiser",
@@ -62,7 +66,8 @@
         "repo": "https://github.com/filcuk/pbi-theme-customiser",
         "icon": "res/logo.svg",
         "type": "static-web-app",
-        "tags": ["power-bi"]
+        "tags": ["power-bi"],
+        "languages": ["javascript"]
       },
       {
         "id": "connection-string-creator",
@@ -74,7 +79,8 @@
         "accent": "#0474b3",
         "accentDark": "#38bdf8",
         "type": "static-web-app",
-        "tags": ["database", "power-bi"]
+        "tags": ["database", "power-bi"],
+        "languages": ["javascript"]
       },
       {
         "id": "fabric-tools",
@@ -85,7 +91,8 @@
         "repo": "https://github.com/filcuk/fabric-tools",
         "icon": "https://raw.githubusercontent.com/filcuk/fabric-tools/refs/heads/main/res/app.svg",
         "type": "cli",
-        "tags": ["fabric"]
+        "tags": ["fabric"],
+        "languages": ["python"]
       },
       {
         "id": "pbi-git-toolkit",
@@ -94,7 +101,8 @@
         "url": "https://github.com/filcuk/pbi-git-toolkit/releases",
         "repo": "https://github.com/filcuk/pbi-git-toolkit",
         "type": "tui",
-        "tags": ["windows", "power-bi", "git"]
+        "tags": ["windows", "power-bi", "git"],
+        "languages": ["python"]
       },
       {
         "id": "power-query-functions",
@@ -118,7 +126,8 @@
         "subtitle": "Customised Best Practice Analyser rules",
         "url": "https://github.com/filcuk/ssas-best-practice-rules",
         "type": "repository",
-        "tags": ["bpa", "ssas", "power-bi"]
+        "tags": ["bpa", "ssas", "power-bi"],
+        "languages": ["csharp"]
       }
     ]
   },
@@ -135,7 +144,8 @@
         "accent": "#ad568c",
         "accentDark": "#d6a4bf",
         "type": "static-web-app",
-        "tags": ["embedded", "conversion", "image"]
+        "tags": ["embedded", "conversion", "image"],
+        "languages": ["javascript"]
       },
       {
         "id": "colour-tools",
@@ -147,7 +157,8 @@
         "accent": "#d75341",
         "accentDark": "#eb8076",
         "type": "static-web-app",
-        "tags": ["colour"]
+        "tags": ["colour"],
+        "languages": ["javascript"]
       },
       {
         "id": "planka-mcp",
@@ -156,7 +167,8 @@
         "url": "https://github.com/filcuk/planka-mcp/pkgs/npm/planka-mcp",
         "repo": "https://github.com/filcuk/planka-mcp",
         "type": "package",
-        "tags": ["mcp", "npm"]
+        "tags": ["mcp", "npm"],
+        "languages": ["typescript"]
       },
       {
         "id": "n8n-nodes-planka-kanban",
@@ -165,7 +177,8 @@
         "url": "https://github.com/filcuk/n8n-nodes-planka-kanban/pkgs/npm/n8n-nodes-planka-kanban",
         "repo": "https://github.com/filcuk/n8n-nodes-planka-kanban",
         "type": "package",
-        "tags": ["n8n", "npm"]
+        "tags": ["n8n", "npm"],
+        "languages": ["typescript"]
       },
       {
         "id": "bypass-proofpoint-redirect",
@@ -174,7 +187,8 @@
         "url": "https://addons.mozilla.org/en-US/firefox/addon/bypass-proofpoint-redirect/",
         "repo": "https://github.com/filcuk/bypass-proofpoint-redirect",
         "type": "extension",
-        "tags": ["firefox", "fork"]
+        "tags": ["firefox", "fork"],
+        "languages": ["javascript"]
       }
     ]
   },
@@ -203,7 +217,7 @@
         "id": "example-widget",
         "label": "Example Widget",
         "subtitle": "Fictional demo entry for schema consumers",
-        "description": "A **made-up** item that exercises every field.\n\n- Relative `icon` / `iconDark`\n- Accents for light and dark\n- `repo` distinct from `url`\n- `featured` and `hidden` flags",
+        "description": "A **made-up** item that exercises every field.\n\n- Relative `icon` / `iconDark`\n- Accents for light and dark\n- `repo` distinct from `url`\n- `languages` Simple Icons slugs\n- `featured` and `hidden` flags",
         "url": "https://example.com/widgets/example-widget/",
         "repo": "https://github.com/example/example-widget",
         "icon": "assets/icon.svg",
@@ -212,6 +226,7 @@
         "accentDark": "#93c5fd",
         "type": "static-web-app",
         "tags": ["example"],
+        "languages": ["javascript", "python"],
         "featured": true,
         "hidden": true
       }

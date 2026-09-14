@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://raw.githubusercontent.com/filcuk/shared/main/dir/links.schema.json",
   "title": "Shared links catalog",
-  "description": "Topic-grouped catalog of sites, repositories, packages, and other links.\n\nConventions:\n- Topics are domains (what it's about).\n- type is the artifact kind (what the target is).\n- tags are optional extras not already implied by topic or type.\n- Array order is display order.\n- Icon/accent paths without a scheme are resolved relative to the item url (join against url as base).\n- Skip topics/items with hidden: true unless explicitly showing drafts/examples.\n- featured marks items eligible for highlight surfaces; omit when false.\n- repo is the source repository when it differs from url.",
+  "description": "Topic-grouped catalog of sites, repositories, packages, and other links.\n\nConventions:\n- Topics are domains (what it's about).\n- type is the artifact kind (what the target is).\n- tags are optional extras not already implied by topic or type.\n- languages are optional Simple Icons slugs for primary languages/tooling (e.g. javascript, python).\n- Array order is display order.\n- Icon/accent paths without a scheme are resolved relative to the item url (join against url as base).\n- Skip topics/items with hidden: true unless explicitly showing drafts/examples.\n- featured marks items eligible for highlight surfaces; omit when false.\n- repo is the source repository when it differs from url.",
   "type": "array",
   "minItems": 1,
   "items": {
@@ -90,6 +90,17 @@
         "tags": {
           "type": "array",
           "description": "Optional cross-cutting labels not already implied by topic or type. Omit when empty.",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          }
+        },
+        "languages": {
+          "type": "array",
+          "description": "Optional primary language/tooling icons for display. Use Simple Icons slugs (e.g. javascript, python, typescript, csharp). Consumers typically render https://cdn.simpleicons.org/{slug}. Omit when empty or not meaningful.",
           "minItems": 1,
           "uniqueItems": true,
           "items": {
