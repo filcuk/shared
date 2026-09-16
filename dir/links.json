@@ -189,6 +189,25 @@
         "type": "extension",
         "tags": ["firefox", "fork"],
         "languages": ["javascript"]
+      },
+      {
+        "id": "pebble-argus",
+        "label": "Pebble Watchface Argus",
+        "subtitle": "Weather and calendar watchface for Pebble Emery smartwatches.",
+        "url": "https://apps.repebble.com/d119efdfa11e498496d4d411",
+        "repo": "https://github.com/filcuk/pebble-watchface-argus",
+        "type": "wearable",
+        "tags": ["pebble", "watchface"],
+        "languages": ["c", "javascript"]
+      },
+      {
+        "id": "inky-gallery",
+        "label": "Inky Gallery",
+        "subtitle": "A custom photo gallery for Pimoroni Inky Frame eInk displays.",
+        "url": "https://github.com/filcuk/inky-gallery",
+        "type": "iot",
+        "tags": ["pimoroni", "eink", "raspberry-pi"],
+        "languages": ["python"]
       }
     ]
   },
@@ -196,11 +215,10 @@
     "topic": "Meta",
     "items": [
       {
-        "id": "profile",
+        "id": "github-profile",
         "label": "Profile",
-        "subtitle": "Find more on GitHub",
+        "subtitle": "Find me on GitHub",
         "url": "https://github.com/filcuk",
-        "repo": "https://github.com/filcuk/filcuk",
         "icon": "https://raw.githubusercontent.com/filcuk/filcuk/refs/heads/main/res/icon/light.svg",
         "iconDark": "https://raw.githubusercontent.com/filcuk/filcuk/refs/heads/main/res/icon/dark.svg",
         "accent": "#00885b",
