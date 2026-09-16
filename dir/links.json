@@ -6,6 +6,7 @@
         "id": "pqm-stepper",
         "label": "Power Query M Stepper",
         "subtitle": "Automatic M step renaming",
+        "description": "No more tedious manual renaming.\nStop your queries from looking like a shaggy carpet.\nYou are a few clicks away from transforming the messy default query steps into **compliant, contextual labels** with zero effort.",
         "url": "https://filcuk.github.io/pqm-stepper/",
         "repo": "https://github.com/filcuk/pqm-stepper",
         "icon": "app/res/app-light.svg",
