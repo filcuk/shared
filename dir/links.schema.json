@@ -123,11 +123,15 @@
       "type": "string",
       "enum": [
         "static-web-app",
+        "progressive-web-app",
         "repository",
         "cli",
         "tui",
         "package",
         "extension",
+        "iot",
+        "wearable",
+        "physible",
         "profile"
       ]
     },
