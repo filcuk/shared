@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://raw.githubusercontent.com/filcuk/shared/main/dir/links.schema.json",
   "title": "Shared links catalog",
-  "description": "Topic-grouped catalog of sites, repositories, packages, and other links.\n\nConventions:\n- Topics are domains (what it's about).\n- type is the artifact kind (what the target is).\n- tags are optional extras not already implied by topic or type.\n- languages are optional Simple Icons slugs for primary languages/tooling (e.g. javascript, python).\n- Array order is display order.\n- Icon/accent paths without a scheme are resolved relative to the item url (join against url as base).\n- Skip topics/items with hidden: true unless explicitly showing drafts/examples.\n- featured marks items eligible for highlight surfaces; omit when false.\n- repo is the source repository when it differs from url.",
+  "description": "Topic-grouped catalog of sites, repositories, packages, and other links.\n\nConventions:\n- Topics are domains (what it's about).\n- type describes where the primary url takes the user (destination), not the software kind—e.g. store listing, package registry, repo, CLI/TUI release, or web app.\n- tags are optional extras not already implied by topic or type (e.g. wearable, iot, physible).\n- languages are optional Simple Icons slugs for primary languages/tooling (e.g. javascript, python).\n- Array order is display order.\n- Icon/accent paths without a scheme are resolved relative to the item url (join against url as base).\n- Skip topics/items with hidden: true unless explicitly showing drafts/examples.\n- featured marks items eligible for highlight surfaces; omit when false.\n- repo is the source repository when it differs from url.",
   "type": "array",
   "minItems": 1,
   "items": {
@@ -85,7 +85,7 @@
         },
         "type": {
           "$ref": "#/$defs/itemType",
-          "description": "What the target is (single primary kind)."
+          "description": "Where url takes the user (single primary destination)."
         },
         "tags": {
           "type": "array",
@@ -121,17 +121,17 @@
     },
     "itemType": {
       "type": "string",
+      "description": "Primary url destination. progressive-web-app / static-web-app: hosted web app; cli / tui: CLI or TUI distribution (e.g. releases); package: registry page; store: app/add-on store listing; repository: source repo; profile: personal/profile page.",
       "enum": [
-        "static-web-app",
         "progressive-web-app",
-        "repository",
+        "static-web-app",
+        "website",
         "cli",
         "tui",
+        "app",
         "package",
-        "extension",
-        "iot",
-        "wearable",
-        "physible",
+        "store",
+        "repository",
         "profile"
       ]
     },
