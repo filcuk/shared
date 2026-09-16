@@ -6,7 +6,7 @@
         "id": "pqm-stepper",
         "label": "Power Query M Stepper",
         "subtitle": "Automatic M step renaming",
-        "description": "No more _tedious manual renaming_. Stop your queries from looking like a _shaggy carpet_.\nYou are a few clicks away from transforming the messy default query steps into **compliant, contextual labels** with _zero effort_.",
+        "description": "No more _tedious manual renaming_. Stop your queries from looking like a _shaggy carpet_.\nYou are **a few clicks away** from transforming the _messy default query steps_ into **compliant, contextual labels** with _zero effort_.",
         "url": "https://filcuk.github.io/pqm-stepper/",
         "repo": "https://github.com/filcuk/pqm-stepper",
         "icon": "app/res/app-light.svg",
@@ -22,7 +22,7 @@
         "id": "pqm-function-creator",
         "label": "Power Query M Function Creator",
         "subtitle": "Easy M to function conversion",
-        "description": "_There may be a day when I write an M function wrapper without needing a reference, but that day is not today..._\n...nor tomorrow, or the day after, thanks to this tool.",
+        "description": "_There may be a day when I write an `M` function wrapper without needing a reference, but that day is not today..._\n...nor tomorrow, or the day after, thanks to this tool.",
         "url": "https://filcuk.github.io/pqm-function-creator/",
         "repo": "https://github.com/filcuk/pqm-function-creator",
         "icon": "app/res/app.svg",
@@ -30,13 +30,13 @@
         "accentDark": "#ff9955",
         "type": "static-web-app",
         "tags": ["power-bi", "power-query", "conversion"],
-        "languages": ["javascript"],
-        "featured": true
+        "languages": ["javascript"]
       },
       {
         "id": "pbi-tabulator",
         "label": "Power BI Tabulator",
         "subtitle": "Tabular conversion for DAX & M",
+        "description": "I don't know many things worse than _writing tables in text_.\nIf you're looking to **create or modify `DAX` or `M` tables using a tabular interface**, look no further.\nAs a bonus, we include tools for alignment and minification, _just for you_.",
         "url": "https://filcuk.github.io/pbi-tabulator/",
         "repo": "https://github.com/filcuk/pbi-tabulator",
         "icon": "app/res/app.svg",
@@ -88,13 +88,14 @@
         "id": "fabric-tools",
         "label": "Fabric Tools",
         "subtitle": "CLI for working with Microsoft Fabric artifacts",
-        "description": "fabric-tools is made for ~~lazy~~ _efficient_ developers, intended to _streamline daily tasks_ across Fabric, avoiding clunky online editors and slow deployment pipelines.",
+        "description": "`fabric-tools` is made for ~~lazy~~ _efficient_ developers, intended to _streamline daily tasks_ across Fabric, avoiding clunky online editors and slow deployment pipelines.",
         "url": "https://github.com/filcuk/fabric-tools/releases",
         "repo": "https://github.com/filcuk/fabric-tools",
         "icon": "https://raw.githubusercontent.com/filcuk/fabric-tools/refs/heads/main/res/app.svg",
         "type": "cli",
         "tags": ["fabric"],
-        "languages": ["python"]
+        "languages": ["python"],
+        "featured": true
       },
       {
         "id": "pbi-git-toolkit",
