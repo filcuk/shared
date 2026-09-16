@@ -171,15 +171,6 @@
         "languages": ["c", "javascript"]
       },
       {
-        "id": "inky-gallery",
-        "label": "Inky Gallery",
-        "subtitle": "A custom photo gallery for Pimoroni Inky Frame eInk displays.",
-        "url": "https://github.com/filcuk/inky-gallery",
-        "type": "iot",
-        "tags": ["pimoroni", "eink", "raspberry-pi"],
-        "languages": ["python"]
-      },
-      {
         "id": "planka-mcp",
         "label": "Planka MCP",
         "subtitle": "MCP server for Planka Kanban",
@@ -198,6 +189,15 @@
         "type": "package",
         "tags": ["n8n", "npm"],
         "languages": ["typescript"]
+      },
+      {
+        "id": "inky-gallery",
+        "label": "Inky Gallery",
+        "subtitle": "A custom photo gallery for Pimoroni Inky Frame eInk displays.",
+        "url": "https://github.com/filcuk/inky-gallery",
+        "type": "iot",
+        "tags": ["pimoroni", "eink", "raspberry-pi"],
+        "languages": ["python"]
       },
       {
         "id": "bypass-proofpoint-redirect",
