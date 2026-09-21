@@ -77,7 +77,7 @@
         "id": "connection-string-creator",
         "label": "Database Connection String Generator",
         "subtitle": "Zero-knowledge CS builder",
-        "description": "**Build connection strings** for your databases without knowing the intricacies of the syntax.\n![screenshot](https://raw.githubusercontent.com/filcuk/connection-string-creator/refs/heads/main/res/readme/screenshot1.png)",
+        "description": "**Build connection strings** for your databases without knowing the intricacies of the syntax.\n![screenshot](https://raw.githubusercontent.com/filcuk/connection-string-creator/refs/heads/main/res/screenshot-1.jpg)",
         "url": "https://filcuk.github.io/connection-string-creator/",
         "repo": "https://github.com/filcuk/connection-string-creator",
         "icon": "app/res/app.svg",
