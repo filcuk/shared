@@ -189,7 +189,8 @@
       {
         "id": "pebble-argus",
         "label": "Pebble Watchface Argus",
-        "subtitle": "Weather and calendar watchface for Pebble Emery smartwatches.",
+        "subtitle": "Weather and calendar watchface for Pebble Time 2 smartwatches.",
+        "description": "A watchface with _fixed layout_, but **extensive customisation options**. **Weather chart** provides temperature, precipitation and wind speed. **Calendar** shows two weeks and highlights holidays. Header at the top can show various information, like steps or heart rate. Time is always big and center. Tailored for minimal footprint and optimal battery life.",
         "url": "https://apps.repebble.com/d119efdfa11e498496d4d411",
         "repo": "https://github.com/filcuk/pebble-watchface-argus",
         "type": "store",
@@ -200,6 +201,7 @@
         "id": "bypass-proofpoint-redirect",
         "label": "Proofpoint Redirect Bypass",
         "subtitle": "Firefox add-on to open Proofpoint-blocked URLs",
+        "description": "This add-on **extracts the original URL** from Proofpoint's sandbox and redirects to it automatically.",
         "url": "https://addons.mozilla.org/en-US/firefox/addon/bypass-proofpoint-redirect/",
         "repo": "https://github.com/filcuk/bypass-proofpoint-redirect",
         "type": "store",
